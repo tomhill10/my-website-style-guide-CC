@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    margin-top: 10px;
+    background-color: aliceblue;
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family:sans-serif
+}
+
+section {
+    width: 80%;
+    border: 1px solid black;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+}
+
+section > h1 {
+    width: 100%;
+    text-decoration: underline;
+}
+
+section div {
+    min-width: 300px;
+}
+
+section div ul li {
+    margin-left: 50px;
+}
+
+.colorbox {
+    max-width: 300px;
+    min-height: 100px;
+}
+
+.red {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ff0000;
+    gap: 10px;
+}
+
+.green {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #00ff00;
+    gap: 10px;
+}
+
+.blue {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0000ff;
+    color: #ffffff;
+    gap: 10px;
+}
+
+.black {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000000;
+    color: #ffffff;
+    gap: 10px;
+}
+
+.SCP {
+font-family: "Source Code Pro";
+}
+
+.nunito {
+font-family: "Nunito Sans";
+}
+
+.poppins {
+font-family: "Poppins";
+}
+
+.main {
+    font-weight: 700;
+    font-size: 26px;
+    font-family: "Nunito Sans";
+}
+
+.sub {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: "Poppins";
+}
+
+.para {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "Poppins";
+}
+
+.Text-Styles div {
+    width: 100%;
+}
+
+
+
+
